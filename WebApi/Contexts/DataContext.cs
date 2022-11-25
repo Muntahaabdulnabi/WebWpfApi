@@ -11,7 +11,7 @@ namespace WebApi.Contexts
 
         public DbSet<ProductCategoryEntity> ProductCategories { get; set; }
         public DbSet<ProductEntity> Products { get; set; }
-        public DbSet<CustomerEntity> Customers { get; set; }
+        public DbSet<CustomerEntity> Customers{ get; set; }
         public DbSet<OrderEntity> Orders { get; set; }
 
 
