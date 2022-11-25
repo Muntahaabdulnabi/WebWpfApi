@@ -10,7 +10,11 @@ namespace WebApi.Models.Entities
         public string? Description { get; set; }
         [Required]
         [Column(TypeName = "money")]
-        public decimal Price { get; set; } 
+        public decimal Price { get; set; }
+
+        public int CategoyId { get; set; }
+        public ProductCategoryEntity Category { get; set; }
+
         public ICollection<OrderEntity> Orders { get; set; }
     }
 }

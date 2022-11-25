@@ -14,7 +14,6 @@ namespace WebApi.Models.Entities
         [Column(TypeName = "nvarchar(100)")]
         public string LastName { get; set; } = null!;
         public string Email { get; set; } = null!;
-        public string Address { get; set; } = null!;
         public string? Phone { get; set; }
         public string CustomerName => $"{FirstName} {LastName}";
     }
