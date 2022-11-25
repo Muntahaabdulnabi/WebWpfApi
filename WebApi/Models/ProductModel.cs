@@ -11,7 +11,7 @@ namespace WebApi.Models
         public string Name { get; set; } = null!;
         public string? Description { get; set; }
         public decimal Price { get; set; }
-        public int CategoyId { get; set; }
+        public int CategoryId { get; set; }
         public string? CategoryName { get; set; }
     }
 }
